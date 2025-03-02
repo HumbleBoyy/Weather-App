@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App JavaScript</title>
+</head>
+<body
+  style="background: #000;"
+>
+   <!-- Loader -->
+   <div class="loader">
+    <div class="ring"></div>
+ </div>
+  <!-- Loader -->
+    <div class="card">
+        <h1 class="title">
+            Weahter App
+        </h1>
+         <div class="search">
+             <input 
+                type="text" 
+                placeholder="Search......" 
+                spellcheck="false"
+            />
+            <button><img src="./images/search.png" alt="Search image"></button>
+         </div>
+         <div class="error">
+            <p>Invaild city name</p>
+         </div>
+
+         <div class="weather">
+             <img src="./images/clouds.png" alt="Weahter" class="weather_icon">
+             <h1 class="temp">25°C</h1>
+             <h2 class="city">Tashkent</h2>
+
+             <div class="details">
+                 <div class="column">
+                    <img src="./images/humidity.png" alt="icons">
+                     <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                     </div>
+                 </div>
+                 <div class="column">
+                    <img src="./images/wind.png" alt="icons">
+                     <div>
+                        <p class="wind">50 km/h</p>
+                        <p>Wind Speed</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <!-- b4c4b5a9734a5e39b362f3bfeb9c2f8a -->
+
+    <script src="./app.js"></script>
+</body>
+</html>
